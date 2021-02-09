@@ -8,7 +8,7 @@ public class StatsService {
         int totalSales = 0;
 
         for (int amountOneMonth : statistic) {
-            totalSales = totalSales + amountOneMonth;
+            totalSales = totalSales + amountOneMonth + 1;
         }
 
         return totalSales;
